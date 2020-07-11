@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <style>
+        body{
+            background-color: black;
+            text-align: center;
+        }
+        h1{
+            background-color: white;
+            color:black;
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        #Heading{
+            width: 500px;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id='Heading'>StopWatch</h1>
+    </div>
+    <div>
+        <h1 id='min'>0</h1>
+        <h1 id='sec'>0</h1>
+        <h1 id='msec'>0</h1>
+    </div>
+    <div>
+      <button onclick="start()">Start</button>
+      <button onclick="stop()">Pause</button>
+      <button onclick="reset()">Reset</button>  
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
